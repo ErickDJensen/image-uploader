@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDSBRktGgdt1m4bDUXQxpAHJZwXrbGhmhs",
+    apiKey: `${process.env.GOOGLE_API_KEY}`,
     authDomain: "weekend-spike-project.firebaseapp.com",
     databaseURL: "https://weekend-spike-project.firebaseio.com",
     projectId: "weekend-spike-project",
